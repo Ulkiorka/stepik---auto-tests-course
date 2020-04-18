@@ -1,5 +1,15 @@
 import pytest
+from importlib_metadata.docs.conf import language
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+
+options = Options()
+options.add_experimental_option('prefs', {'intl.accept_languages': language})
+browser = webdriver.Chrome(options=options)
+
+fp = webdriver.FirefoxProfile()
+fp.set_preference("intl.accept_languages", language)
+browser = webdriver.Firefox(firefox_profile=fp)
 
 def pytest_addoption(parser):
     parser.addoption('--browser_name', action='store', default=None,
