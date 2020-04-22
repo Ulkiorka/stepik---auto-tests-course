@@ -1,32 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1252df35-cce5-41b3-8a92-cfd31f1f934d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Special_tests/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Special_tests/geckodriver.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Special_tests/test_parser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_run_of_firefox.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson36_step2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson36_step3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_3_3_9_pytest_raises.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_abs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_fixture1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_fixture2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_fixture3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_fixture5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_fixture7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_fixture8.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_rerun.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_task_run_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_xfail.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/find_elements_by.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/find_elements_by.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/pages/base_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/pages/main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/pages/main_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/test_main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/test_main_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,16 +58,18 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Homework" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Homework" />
+      <recent name="$PROJECT_DIR$/Homework" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test_parser">
+  <component name="RunManager" selected="Python.main_page">
     <configuration name="first_run_of_firefox" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="find_elements_by" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -86,7 +91,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lesson36_step2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main_page" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="find_elements_by" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -94,11 +99,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Homework/pages" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson36_step2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Homework/pages/main_page.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -107,7 +112,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lesson36_step3 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test_items" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="find_elements_by" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -115,11 +120,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Homework" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson36_step3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Homework/test_items.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -128,7 +133,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lesson36_step3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test_main_page" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="find_elements_by" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -136,11 +141,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Homework" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson36_step3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Homework/test_main_page.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -172,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main_page" />
+        <item itemvalue="Python.test_main_page" />
+        <item itemvalue="Python.test_items" />
         <item itemvalue="Python.test_parser" />
         <item itemvalue="Python.first_run_of_firefox" />
-        <item itemvalue="Python.lesson36_step3 (1)" />
-        <item itemvalue="Python.lesson36_step2" />
-        <item itemvalue="Python.lesson36_step3" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +224,42 @@
       <option name="project" value="LOCAL" />
       <updated>1587222105713</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="all_changes">
+      <created>1587222153335</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1587222153335</updated>
+    </task>
+    <task id="LOCAL-00006" summary="homework">
+      <created>1587223853034</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1587223853034</updated>
+    </task>
+    <task id="LOCAL-00007" summary="base_page">
+      <created>1587409559224</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1587409559224</updated>
+    </task>
+    <task id="LOCAL-00008" summary="base_page true_version">
+      <created>1587409697042</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1587409697042</updated>
+    </task>
+    <task id="LOCAL-00009" summary="refactoring test to PageObject">
+      <created>1587410556131</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1587410556131</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -227,7 +267,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -240,7 +292,11 @@
     <MESSAGE value="test framefork&#10;3.2.12" />
     <MESSAGE value="lesson32_step13" />
     <MESSAGE value="all_changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="all_changes" />
+    <MESSAGE value="homework" />
+    <MESSAGE value="base_page" />
+    <MESSAGE value="base_page true_version" />
+    <MESSAGE value="refactoring test to PageObject" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring test to PageObject" />
   </component>
   <component name="WindowStateProjectService">
     <state x="438" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586702452555">
@@ -251,29 +307,29 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="312" y="132" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1440.900@0.0.1440.900" timestamp="1586966437697" />
-    <state x="270" y="52" key="CommitChangelistDialog2" timestamp="1586542240743">
+    <state x="270" y="51" key="CommitChangelistDialog2" timestamp="1587410556025">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="270" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1586542240743" />
-    <state width="1419" height="322" key="GridCell.Tab.0.bottom" timestamp="1587124018982">
+    <state x="270" y="51" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587410556025" />
+    <state width="1419" height="322" key="GridCell.Tab.0.bottom" timestamp="1587579770414">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="322" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587124018982" />
+    <state width="1419" height="322" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587579770414" />
     <state width="1419" height="380" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1586967204801" />
-    <state width="1419" height="322" key="GridCell.Tab.0.center" timestamp="1587124018981">
+    <state width="1419" height="322" key="GridCell.Tab.0.center" timestamp="1587579770413">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="322" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587124018981" />
+    <state width="1419" height="322" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587579770413" />
     <state width="1419" height="380" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1586967204800" />
-    <state width="1419" height="322" key="GridCell.Tab.0.left" timestamp="1587124018981">
+    <state width="1419" height="322" key="GridCell.Tab.0.left" timestamp="1587579770412">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="322" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587124018981" />
+    <state width="1419" height="322" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587579770412" />
     <state width="1419" height="380" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1586967204799" />
-    <state width="1419" height="322" key="GridCell.Tab.0.right" timestamp="1587124018982">
+    <state width="1419" height="322" key="GridCell.Tab.0.right" timestamp="1587579770413">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="322" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587124018982" />
+    <state width="1419" height="322" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587579770413" />
     <state width="1419" height="380" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1586967204800" />
     <state x="396" y="179" key="RollbackChangesDialog" timestamp="1586618738503">
       <screen x="0" y="0" width="1440" height="900" />
@@ -283,15 +339,15 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1586461079713" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1586460707443">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1587410557772">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1586460707443" />
-    <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1586972282202">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1587410557772" />
+    <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1587222458734">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1440.900@0.0.1440.900" timestamp="1586972282202" />
-    <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.877@0.23.1440.877" timestamp="1586971981926" />
+    <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.877@0.23.1440.877" timestamp="1587222458734" />
     <state x="503" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586460686667">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -304,6 +360,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="361" y="248" key="git4idea.merge.GitPullDialog/0.0.1440.900@0.0.1440.900" timestamp="1586460670549" />
+    <state x="465" y="318" key="git4idea.rebase.GitRebaseDialog" timestamp="1587222262385">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="465" y="318" key="git4idea.rebase.GitRebaseDialog/0.0.1440.900@0.0.1440.900" timestamp="1587222262385" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1587123807994">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
