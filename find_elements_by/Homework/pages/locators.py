@@ -9,7 +9,8 @@ class LoginPageLocators():
     REGISTER_FORM = (By.CSS_SELECTOR, "#register_form")
 
 class ProductPageLocators():
-    BUTTON = (By.CSS_SELECTOR, ".btn-add-to-basket")
-    MESSAGE_AFTER_ADD_ITEM = (By.CSS_SELECTOR, '.alert-success:first-child .alertinner strong')
-    PRODUCT_PRICE = (By.CSS_SELECTOR, '.product_page .price_color')
-    BASCET_PRICE = (By.CSS_SELECTOR, 'div.alert div p strong')
+    BUTTON_ADD_TO_BUSKET = (By.CSS_SELECTOR, ".btn-add-to-basket")
+    BOOK_TITLE = (By.CSS_SELECTOR, '.product_main h1')
+    BOOK_PRICE = (By.CSS_SELECTOR, '.product_page .price_color')
+    BASKET_BOOK_NAME = (By.CSS_SELECTOR, '#messages>div:nth-child(1) strong')
+    BASKET_PRICE = (By.CSS_SELECTOR, '.alert-info .alertinner strong')

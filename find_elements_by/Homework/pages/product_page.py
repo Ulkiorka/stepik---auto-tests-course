@@ -4,18 +4,24 @@ from .locators import ProductPageLocators
 
 class ProductPage(BasePage):
     def add_item_to_basket(self):
-        item_link = self.browser.find_element(*ProductPageLocators.BUTTON)
+        """Метод добавления товара в корзину"""
+        item_link = self.browser.find_element(*ProductPageLocators.BUTTON_ADD_TO_BUSKET)
         item_link.click()
 
     def check_add_item_to_basket(self):
-        self.should_be_message()
-        self.should_be_right_price()
+        """Проверка: товар добавлен в корзину"""
+        self.message_items_should_be_add_to_basket()
+        self.should_be_same_prices()
 
-    def should_be_message(self):
-        assert self.is_element_present(*ProductPageLocators.MESSAGE_AFTER_ADD_ITEM), "item was not added"
+    def message_items_should_be_add_to_basket(self):
+        """Проверка: название товара в сообщении совпадает с добавленным товаром"""
+        book_title = self.browser.find_element(*ProductPageLocators.BOOK_TITLE).text
+        message_after_add = self.browser.find_element(*ProductPageLocators.BASKET_BOOK_NAME).text
+        assert book_title == message_after_add, f"book title does not match name in message: '{book_title}' != '{message_after_add}'"
 
-    def should_be_right_price(self):
-        product_price = self.browser.find_element(*ProductPageLocators.PRODUCT_PRICE).text
-        bascet_price  = self.browser.find_element(*ProductPageLocators.BASCET_PRICE).text
-        print(product_price, bascet_price)
-        assert product_price == bascet_price, f"{product_price} not equal {bascet_price}"
+    def should_be_same_prices(self):
+        """Проверка: стоимость корзины равна цене товара"""
+        product_price = self.browser.find_element(*ProductPageLocators.BOOK_PRICE).text
+        price_in_basket = self.browser.find_element(*ProductPageLocators.BASKET_PRICE).text
+        print(product_price, price_in_basket)
+        assert product_price == price_in_basket, f"{product_price} not equal {price_in_basket}"
