@@ -26,10 +26,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1252df35-cce5-41b3-8a92-cfd31f1f934d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Homework/pages/basket_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Homework/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/pages/base_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/pages/locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/pages/locators.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Homework/pages/main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/pages/main_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/pages/product_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/pages/product_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Homework/test_main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/test_main_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/test_product_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/test_product_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,10 +62,14 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ToolWindowStructure.ShowToolbar" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Homework" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Homework/" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Homework" />
       <recent name="$PROJECT_DIR$/Homework" />
@@ -69,8 +77,8 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main_page">
-    <configuration name="first_run_of_firefox" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.test_product_page">
+    <configuration name="login_page" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="find_elements_by" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -78,11 +86,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Homework/pages" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/first_run_of_firefox.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Homework/pages/login_page.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,7 +162,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_parser" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test_product_page" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="find_elements_by" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -162,11 +170,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Special_tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Homework" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Special_tests/test_parser.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Homework/test_product_page.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -177,13 +185,16 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test_product_page" />
+        <item itemvalue="Python.login_page" />
         <item itemvalue="Python.main_page" />
         <item itemvalue="Python.test_main_page" />
         <item itemvalue="Python.test_items" />
-        <item itemvalue="Python.test_parser" />
-        <item itemvalue="Python.first_run_of_firefox" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_INHERITED,SHOW_FIELDS,ALPHA_COMPARATOR" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -259,8 +270,53 @@
       <option name="project" value="LOCAL" />
       <updated>1587410556131</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="adding new test with correct exception">
+      <created>1587580923833</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1587580923833</updated>
+    </task>
+    <task id="LOCAL-00011" summary="new locators for login_page">
+      <created>1587925811758</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1587925811758</updated>
+    </task>
+    <task id="LOCAL-00012" summary="product_page and tests">
+      <created>1588337720628</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1588337720628</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Запомним этот момент. тесты проходят, но баг не найден">
+      <created>1588453617955</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1588453617955</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Рабочая версия тестов. &#10;Добавлена проверка сравнения имени книги с текстом в попапе&#10;Убран лишний мусор из кода">
+      <created>1588524780633</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1588524780633</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -296,7 +352,12 @@
     <MESSAGE value="base_page" />
     <MESSAGE value="base_page true_version" />
     <MESSAGE value="refactoring test to PageObject" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring test to PageObject" />
+    <MESSAGE value="adding new test with correct exception" />
+    <MESSAGE value="new locators for login_page" />
+    <MESSAGE value="product_page and tests" />
+    <MESSAGE value="Запомним этот момент. тесты проходят, но баг не найден" />
+    <MESSAGE value="Рабочая версия тестов. &#10;Добавлена проверка сравнения имени книги с текстом в попапе&#10;Убран лишний мусор из кода" />
+    <option name="LAST_COMMIT_MESSAGE" value="Рабочая версия тестов. &#10;Добавлена проверка сравнения имени книги с текстом в попапе&#10;Убран лишний мусор из кода" />
   </component>
   <component name="WindowStateProjectService">
     <state x="438" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586702452555">
@@ -307,29 +368,33 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="312" y="132" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1440.900@0.0.1440.900" timestamp="1586966437697" />
-    <state x="270" y="51" key="CommitChangelistDialog2" timestamp="1587410556025">
+    <state x="270" y="0" key="CommitChangelistDialog2" timestamp="1588524780485">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="270" y="51" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587410556025" />
-    <state width="1419" height="322" key="GridCell.Tab.0.bottom" timestamp="1587579770414">
+    <state x="270" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1588524780485" />
+    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1588512607241">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="322" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587579770414" />
+    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1588512607241" />
+    <state width="1419" height="204" key="GridCell.Tab.0.bottom" timestamp="1588226562828">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="204" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1588226562828" />
     <state width="1419" height="380" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1586967204801" />
-    <state width="1419" height="322" key="GridCell.Tab.0.center" timestamp="1587579770413">
+    <state width="1419" height="204" key="GridCell.Tab.0.center" timestamp="1588226562827">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="322" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587579770413" />
+    <state width="1419" height="204" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1588226562827" />
     <state width="1419" height="380" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1586967204800" />
-    <state width="1419" height="322" key="GridCell.Tab.0.left" timestamp="1587579770412">
+    <state width="1419" height="204" key="GridCell.Tab.0.left" timestamp="1588226562826">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="322" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587579770412" />
+    <state width="1419" height="204" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1588226562826" />
     <state width="1419" height="380" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1586967204799" />
-    <state width="1419" height="322" key="GridCell.Tab.0.right" timestamp="1587579770413">
+    <state width="1419" height="204" key="GridCell.Tab.0.right" timestamp="1588226562827">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="322" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587579770413" />
+    <state width="1419" height="204" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1588226562827" />
     <state width="1419" height="380" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1586967204800" />
     <state x="396" y="179" key="RollbackChangesDialog" timestamp="1586618738503">
       <screen x="0" y="0" width="1440" height="900" />
@@ -339,15 +404,15 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1586461079713" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1587410557772">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1588524784975">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1587410557772" />
-    <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1587222458734">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1588524784975" />
+    <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1588512607241">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1440.900@0.0.1440.900" timestamp="1586972282202" />
-    <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.877@0.23.1440.877" timestamp="1587222458734" />
+    <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1440.900@0.0.1440.900" timestamp="1588512607241" />
+    <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.877@0.23.1440.877" timestamp="1588419319371" />
     <state x="503" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586460686667">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -364,6 +429,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="465" y="318" key="git4idea.rebase.GitRebaseDialog/0.0.1440.900@0.0.1440.900" timestamp="1587222262385" />
+    <state width="600" height="428" key="javadoc.popup" timestamp="1588587112730">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="600" height="428" key="javadoc.popup/0.0.1440.900@0.0.1440.900" timestamp="1588587112730" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1587123807994">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
